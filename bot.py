@@ -9,6 +9,8 @@ from telegram.ext import (
     filters,
     ConversationHandler,
     ContextTypes,
+    CallbackQueryHandler,   # <-- أضف هذا السطر
+)
 )
 import logging
 import json
