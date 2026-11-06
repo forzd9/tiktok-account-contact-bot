@@ -11,7 +11,6 @@ from telegram.ext import (
     ContextTypes,
     CallbackQueryHandler,   # <-- أضف هذا السطر
 )
-)
 import logging
 import json
 
